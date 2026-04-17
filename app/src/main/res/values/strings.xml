@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">GameStore</string>
+    <string name="gamestore">GAMESTORE</string>
+    <string name="tu_tienda_gamer">Tu tienda gamer</string>
 </resources>
