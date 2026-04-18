@@ -2,4 +2,10 @@
     <string name="app_name">GameStore</string>
     <string name="gamestore">GAMESTORE</string>
     <string name="tu_tienda_gamer">Tu tienda gamer</string>
+    <string name="imagen_del_producto">Imagen del producto</string>
+    <string name="auriculares_redragon_zeus_x_rgb">Auriculares Redragon Zeus X RGB</string>
+    <string name="_89_999">$89.999</string>
+    <string name="auriculares_gamer_con_sonido_envolvente_7_1_micr_fono_desmontable_e_iluminaci_n_rgb_dise_ados_para_sesiones_de_juego_prolongadas_con_m_xima_fidelidad_sonora">Auriculares gamer con sonido envolvente 7.1, micrófono desmontable e iluminación RGB. Diseñados para sesiones de juego prolongadas con máxima fidelidad sonora.</string>
+    <string name="agregar_al_carrito">Agregar al carrito</string>
+    <string name="vaciar_carrito">Vaciar carrito</string>
 </resources>

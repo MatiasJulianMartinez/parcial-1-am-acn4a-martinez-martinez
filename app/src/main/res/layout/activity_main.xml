@@ -45,6 +45,61 @@
                 android:textColor="#9CCBFF"
                 android:textSize="14sp" />
 
+            <ImageView
+                android:id="@+id/imgProducto"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_marginTop="24dp"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/imagen_del_producto"
+                android:padding="12dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/auricular_redragon" />
+
+            <TextView
+                android:id="@+id/txtNombreProducto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/auriculares_redragon_zeus_x_rgb"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtPrecio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/_89_999"
+                android:textColor="#39FF14"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtDescripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:lineSpacingExtra="4dp"
+                android:text="@string/auriculares_gamer_con_sonido_envolvente_7_1_micr_fono_desmontable_e_iluminaci_n_rgb_dise_ados_para_sesiones_de_juego_prolongadas_con_m_xima_fidelidad_sonora"
+                android:textColor="#D9D9D9"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnAgregarCarrito"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:text="@string/agregar_al_carrito" />
+
+            <Button
+                android:id="@+id/btnVaciarCarrito"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:text="@string/vaciar_carrito" />
+
         </LinearLayout>
 
     </ScrollView>
