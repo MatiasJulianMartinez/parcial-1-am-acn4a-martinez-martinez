@@ -3,7 +3,7 @@
 Parcial 1 de Aplicaciones Móviles
 
 Comisión: ACN4A
-Alumno: Matias Martinez
+Alumno: Matias Julian Martinez
 
 Temática:
 - Tienda gamer
