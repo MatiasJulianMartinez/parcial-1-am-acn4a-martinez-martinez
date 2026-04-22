@@ -50,6 +50,13 @@ public class MainActivity extends AppCompatActivity {
                 agregarProductoAlCarrito();
             }
         });
+
+        btnVaciarCarrito.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                vaciarCarrito();
+            }
+        });
     }
 
     private void agregarProductoAlCarrito() {
@@ -69,5 +76,15 @@ public class MainActivity extends AppCompatActivity {
         txtContadorCarrito.setText("Productos en carrito: " + cantidadProductos);
 
         Toast.makeText(this, "Producto agregado al carrito", Toast.LENGTH_SHORT).show();
+    }
+
+    private void vaciarCarrito() {
+        layoutCarrito.removeAllViews();
+        layoutCarrito.addView(txtCarritoVacio);
+
+        cantidadProductos = 0;
+        txtContadorCarrito.setText("Productos en carrito: 0");
+
+        Toast.makeText(this, "Carrito vaciado", Toast.LENGTH_SHORT).show();
     }
 }
