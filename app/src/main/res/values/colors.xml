@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="fondo_principal">#0B0B0F</color>
+    <color name="color_titulo">#C7A6FF</color>
+    <color name="color_subtitulo">#9CCBFF</color>
+    <color name="color_precio">#39FF14</color>
+    <color name="color_texto_principal">#FFFFFF</color>
+    <color name="color_texto_secundario">#D9D9D9</color>
+    <color name="fondo_contador">#1A1A1F</color>
+    <color name="fondo_carrito">#111116</color>
+    <color name="color_titulo_carrito">#8ED8FF</color>
+    <color name="color_texto_vacio">#A9A9A9</color>
+    <color name="color_blanco">#FFFFFF</color>
 </resources>
