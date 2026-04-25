@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_pantalla">20dp</dimen>
+    <dimen name="margin_pequeno">6dp</dimen>
+    <dimen name="margin_mediano">16dp</dimen>
+    <dimen name="margin_grande">24dp</dimen>
+    <dimen name="margin_boton_principal">28dp</dimen>
+    <dimen name="margin_boton_secundario">14dp</dimen>
+
+    <dimen name="alto_imagen_producto">260dp</dimen>
+
+    <dimen name="padding_imagen">12dp</dimen>
+    <dimen name="padding_contador">14dp</dimen>
+    <dimen name="padding_carrito">16dp</dimen>
+
+    <dimen name="texto_titulo_tienda">24sp</dimen>
+    <dimen name="texto_subtitulo">14sp</dimen>
+    <dimen name="texto_nombre_producto">20sp</dimen>
+    <dimen name="texto_precio">22sp</dimen>
+    <dimen name="texto_descripcion">16sp</dimen>
+    <dimen name="texto_contador">16sp</dimen>
+    <dimen name="texto_titulo_carrito">22sp</dimen>
+    <dimen name="texto_carrito_vacio">16sp</dimen>
+
+    <dimen name="espaciado_por_linea">4dp</dimen>
+    <dimen name="padding_item_carrito">20dp</dimen>
+</resources>

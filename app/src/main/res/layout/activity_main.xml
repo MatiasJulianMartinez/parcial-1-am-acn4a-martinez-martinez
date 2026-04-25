@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="20dp">
+            android:padding="@dimen/padding_pantalla">
 
             <TextView
                 android:id="@+id/txtTituloTienda"
@@ -32,7 +32,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/gamestore"
                 android:textColor="@color/color_titulo"
-                android:textSize="24sp"
+                android:textSize="@dimen/texto_titulo_tienda"
                 android:textStyle="bold" />
 
             <TextView
@@ -40,19 +40,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="6dp"
+                android:layout_marginTop="@dimen/margin_pequeno"
                 android:text="@string/subtitulo"
                 android:textColor="@color/color_subtitulo"
-                android:textSize="14sp" />
+                android:textSize="@dimen/texto_subtitulo" />
 
             <ImageView
                 android:id="@+id/imgProducto"
                 android:layout_width="match_parent"
-                android:layout_height="260dp"
-                android:layout_marginTop="24dp"
+                android:layout_height="@dimen/alto_imagen_producto"
+                android:layout_marginTop="@dimen/margin_grande"
                 android:background="@color/color_blanco"
                 android:contentDescription="@string/imagen_del_producto"
-                android:padding="12dp"
+                android:padding="@dimen/padding_imagen"
                 android:scaleType="fitCenter"
                 android:src="@drawable/auricular_redragon" />
 
@@ -60,77 +60,77 @@
                 android:id="@+id/txtNombreProducto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="@dimen/margin_grande"
                 android:text="@string/titulo_imagen"
                 android:textColor="@color/color_texto_principal"
-                android:textSize="20sp"
+                android:textSize="@dimen/texto_nombre_producto"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/txtPrecio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="@dimen/margin_mediano"
                 android:text="@string/precio"
                 android:textColor="@color/color_precio"
-                android:textSize="22sp"
+                android:textSize="@dimen/texto_precio"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/txtDescripcion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:lineSpacingExtra="4dp"
+                android:layout_marginTop="@dimen/margin_mediano"
+                android:lineSpacingExtra="@dimen/espaciado_por_linea"
                 android:text="@string/descripcion_producto"
                 android:textColor="@color/color_texto_secundario"
-                android:textSize="16sp" />
+                android:textSize="@dimen/texto_descripcion" />
 
             <Button
                 android:id="@+id/btnAgregarCarrito"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="28dp"
+                android:layout_marginTop="@dimen/margin_boton_principal"
                 android:text="@string/agregar_al_carrito" />
 
             <Button
                 android:id="@+id/btnVaciarCarrito"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="14dp"
+                android:layout_marginTop="@dimen/margin_boton_secundario"
                 android:text="@string/vaciar_carrito" />
 
             <TextView
                 android:id="@+id/txtContadorCarrito"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="@dimen/margin_mediano"
                 android:background="@color/fondo_contador"
                 android:gravity="center"
-                android:padding="14dp"
+                android:padding="@dimen/padding_contador"
                 android:text="@string/productos_en_carrito"
                 android:textColor="@color/color_texto_principal"
-                android:textSize="16sp"
+                android:textSize="@dimen/texto_contador"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/txtTituloCarrito"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="28dp"
+                android:layout_marginTop="@dimen/margin_boton_principal"
                 android:text="@string/carrito"
                 android:textColor="@color/color_titulo_carrito"
-                android:textSize="22sp"
+                android:textSize="@dimen/texto_titulo_carrito"
                 android:textStyle="bold" />
 
             <LinearLayout
                 android:id="@+id/layoutCarrito"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="@dimen/margin_mediano"
                 android:background="@color/fondo_carrito"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="@dimen/padding_carrito">
 
                 <TextView
                     android:id="@+id/txtCarritoVacio"
@@ -139,7 +139,7 @@
                     android:gravity="center"
                     android:text="@string/productos_agregados"
                     android:textColor="@color/color_texto_vacio"
-                    android:textSize="16sp" />
+                    android:textSize="@dimen/texto_carrito_vacio" />
             </LinearLayout>
 
         </LinearLayout>
