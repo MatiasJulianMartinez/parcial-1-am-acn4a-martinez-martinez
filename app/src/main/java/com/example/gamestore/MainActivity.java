@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         TextView nuevoProducto = new TextView(this);
-        nuevoProducto.setText("• Auriculares Redragon Zeus X RGB - $89.999");
+        nuevoProducto.setText(getString(R.string.producto_carrito));
         nuevoProducto.setTextSize(16);
         nuevoProducto.setTextColor(getResources().getColor(android.R.color.white));
         nuevoProducto.setPadding(0, 0, 0, 20);
@@ -73,9 +73,9 @@ public class MainActivity extends AppCompatActivity {
         layoutCarrito.addView(nuevoProducto);
 
         cantidadProductos++;
-        txtContadorCarrito.setText("Productos en carrito: " + cantidadProductos);
+        txtContadorCarrito.setText(getString(R.string.productos_en_carrito_base) + cantidadProductos);
 
-        Toast.makeText(this, "Producto agregado al carrito", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, getString(R.string.mensaje_producto_agregado), Toast.LENGTH_SHORT).show();
     }
 
     private void vaciarCarrito() {
@@ -83,8 +83,8 @@ public class MainActivity extends AppCompatActivity {
         layoutCarrito.addView(txtCarritoVacio);
 
         cantidadProductos = 0;
-        txtContadorCarrito.setText("Productos en carrito: 0");
+        txtContadorCarrito.setText(getString(R.string.productos_en_carrito));
 
-        Toast.makeText(this, "Carrito vaciado", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, getString(R.string.mensaje_carrito_vaciado), Toast.LENGTH_SHORT).show();
     }
 }

@@ -11,4 +11,8 @@
     <string name="productos_en_carrito">Productos en carrito: 0</string>
     <string name="carrito">CARRITO</string>
     <string name="productos_agregados">No hay productos agregados</string>
+    <string name="producto_carrito">• Auriculares Redragon Zeus X RGB - $89.999</string>
+    <string name="mensaje_producto_agregado">Producto agregado al carrito</string>
+    <string name="mensaje_carrito_vaciado">Carrito vaciado</string>
+    <string name="productos_en_carrito_base">Productos en carrito: </string>
 </resources>
