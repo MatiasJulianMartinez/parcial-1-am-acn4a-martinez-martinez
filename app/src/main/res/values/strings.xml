@@ -15,4 +15,6 @@
     <string name="mensaje_producto_agregado">Producto agregado al carrito</string>
     <string name="mensaje_carrito_vaciado">Carrito vaciado</string>
     <string name="productos_en_carrito_base">Productos en carrito: </string>
+    <string name="total_estimado">Total estimado: $0</string>
+    <string name="total_estimado_base">Total estimado: $</string>
 </resources>

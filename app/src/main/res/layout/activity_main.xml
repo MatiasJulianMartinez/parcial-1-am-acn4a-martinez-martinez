@@ -114,6 +114,19 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/txtTotalEstimado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_boton_secundario"
+                android:background="@color/fondo_contador"
+                android:gravity="center"
+                android:padding="@dimen/padding_contador"
+                android:text="@string/total_estimado"
+                android:textColor="@color/color_precio"
+                android:textSize="@dimen/texto_contador"
+                android:textStyle="bold" />
+
+            <TextView
                 android:id="@+id/txtTituloCarrito"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

@@ -19,9 +19,11 @@ public class MainActivity extends AppCompatActivity {
     private Button btnVaciarCarrito;
     private TextView txtContadorCarrito;
     private TextView txtCarritoVacio;
+    private TextView txtTotalEstimado;
     private LinearLayout layoutCarrito;
 
     private int cantidadProductos = 0;
+    private final int precioProducto = 89999;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
         btnVaciarCarrito = findViewById(R.id.btnVaciarCarrito);
         txtContadorCarrito = findViewById(R.id.txtContadorCarrito);
         txtCarritoVacio = findViewById(R.id.txtCarritoVacio);
+        txtTotalEstimado = findViewById(R.id.txtTotalEstimado);
         layoutCarrito = findViewById(R.id.layoutCarrito);
 
         btnAgregarCarrito.setOnClickListener(new View.OnClickListener() {
@@ -75,6 +78,9 @@ public class MainActivity extends AppCompatActivity {
         cantidadProductos++;
         txtContadorCarrito.setText(getString(R.string.productos_en_carrito_base) + cantidadProductos);
 
+        int total = cantidadProductos * precioProducto;
+        txtTotalEstimado.setText(getString(R.string.total_estimado_base) + total);
+
         Toast.makeText(this, getString(R.string.mensaje_producto_agregado), Toast.LENGTH_SHORT).show();
     }
 
@@ -84,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
 
         cantidadProductos = 0;
         txtContadorCarrito.setText(getString(R.string.productos_en_carrito));
+        txtTotalEstimado.setText(getString(R.string.total_estimado));
 
         Toast.makeText(this, getString(R.string.mensaje_carrito_vaciado), Toast.LENGTH_SHORT).show();
     }
